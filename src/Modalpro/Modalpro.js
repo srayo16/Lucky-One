@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Button, Modal } from 'react-bootstrap';
 
-const Modalpro = ({dorandom}) => {
+const Modalpro = ({doRandom}) => {
     const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -22,7 +22,7 @@ const Modalpro = ({dorandom}) => {
           <Modal.Header closeButton>
             <Modal.Title>Choosed this for you!</Modal.Title>
           </Modal.Header>
-          <Modal.Body>{dorandom}</Modal.Body>
+          <Modal.Body className='fs-5 text-danger'>{doRandom}</Modal.Body>
           <Modal.Footer>
             <Button variant="secondary" onClick={handleClose}>
               Close

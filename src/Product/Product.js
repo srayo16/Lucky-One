@@ -1,7 +1,8 @@
 import React from 'react';
 import { Button, Card } from 'react-bootstrap';
-import './Product.css'
-import './Product.css'
+import './Product.css';
+import './Product.css';
+import { FaShoppingCart } from 'react-icons/fa';
 
 const Product = ({pd ,addtocart}) => {
     
@@ -19,7 +20,7 @@ const Product = ({pd ,addtocart}) => {
       <br />
       <br />
     </Card.Text>
-    <Button variant="none" className='btu text-dark fw-bolder' onClick={() =>addtocart(phone_name)}>Add to cart</Button>
+    <Button variant="none" className='btu text-dark fw-bolder' onClick={() =>addtocart(phone_name)}>Add to cart<FaShoppingCart className='ms-2'></FaShoppingCart> </Button>
   </Card.Body>
 </Card>
     </div>
