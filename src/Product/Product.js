@@ -19,7 +19,7 @@ const Product = ({pd ,addtocart}) => {
       <br />
       <br />
     </Card.Text>
-    <Button variant="primary" className='btu text-dark fw-bolder' onClick={() =>addtocart(phone_name)}>Add to cart</Button>
+    <Button variant="none" className='btu text-dark fw-bolder' onClick={() =>addtocart(phone_name)}>Add to cart</Button>
   </Card.Body>
 </Card>
     </div>

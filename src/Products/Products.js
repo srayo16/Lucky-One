@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Cart from '../Cart/Cart';
 import Product from '../Product/Product';
 import './Products.css'
-const Products = ({addtocart ,cart}) => {
+const Products = ({addtocart ,cart ,getRandom}) => {
     // console.log(cart);
     const [datas , setDatas] = useState([])
     useEffect( () =>{
@@ -11,6 +11,7 @@ const Products = ({addtocart ,cart}) => {
         .then(data => setDatas(data.data))
     } , [])
     return (
+
         <div className='pdsGrid'>
         <div className='forColoum'>
 
@@ -23,7 +24,7 @@ const Products = ({addtocart ,cart}) => {
          
          <div className='carthandle' >
 
-             <Cart cart={cart}></Cart>
+             <Cart cart={cart} ></Cart>
 
           </div>
          
