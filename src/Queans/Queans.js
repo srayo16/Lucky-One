@@ -10,7 +10,7 @@ const Queans = () => {
                 <p className='fw-bold'>উত্তর:
                 </p>
                 <div className="container px-4">
-                <div className="row gx-5">
+                <div className="row gx-5 gy-3">
                  <div className="col-12 col-sm-12 col-md-6 col-lg-6">
                  <div className='border rounded p-3'>
                  <p className='fw-bold'>প্রপসঃ</p>
@@ -23,10 +23,11 @@ const Queans = () => {
                      </div>
                      <div className="col-12 col-sm-12 col-md-6 col-lg-6">
                         <div className='border rounded p-3'>
-                            <p>সেস্টঃ</p>
+                            <p className='fw-bold'>স্টেটঃ</p>
                             <li>স্টেট টপ লেভেলের কম্পনেন্ট।</li>
                             <li>এটি পরিবর্তনযোগ্য।</li>
                             <li>এটি প্রপস ইন্সটেডের সাথে ডাটাকে নিচের দিকে পাস করে।</li>
+                            <br />
 
                         </div>
                           </div>
@@ -34,8 +35,8 @@ const Queans = () => {
                             </div>
             </div>
             <div className='mt-5 mb-3'>
-                <p className='fw-bold'>প্রশ্নঃ ইউজসেস্ট কিভাবে কাজ করে?</p>
-                <p><span className='fw-bold'>উত্তরঃ</span> রিয়েক্ট জেএসের এই ইউজস্টেট মূলত একটা হুক যা ফাংশনাল কম্পনেন্টগুলোর  সেস্ট ভেরিয়েবলগুলো নিজের মধ্যে রাখতে দেয়। এটাতে ইনিসিয়াল স্টেট পাস করা হলে  এটি বর্তমান স্টেট ভেলুর(value) সাথে একটি ভেরিয়েবলে রিটার্ন করবে। অতঃপর অপর একটি ফাংশন এই ভেলুটিকে(value) আপডেট করে। এভাবে ইউজসেস্ট কাজ করে।</p>
+                <p className='fw-bold'>প্রশ্নঃ ইউজস্টেট কিভাবে কাজ করে?</p>
+                <p><span className='fw-bold'>উত্তরঃ</span> রিয়েক্ট জেএসের এই ইউজস্টেট মূলত একটা হুক যা ফাংশনাল কম্পনেন্টগুলোর  স্টেট ভেরিয়েবলগুলো নিজের মধ্যে রাখতে দেয়। এটাতে ইনিসিয়াল স্টেট পাস করা হলে  এটি বর্তমান স্টেট ভেলুর(value) সাথে একটি ভেরিয়েবলে রিটার্ন করবে। অতঃপর অপর একটি ফাংশন এই ভেলুটিকে(value) আপডেট করে। এভাবে ইউজস্টেট কাজ করে।</p>
                 
             </div>
         </div>
