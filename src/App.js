@@ -7,23 +7,11 @@ import Queans from './Queans/Queans';
 import Footer from './Footer/Footer';
 
 function App() {
-  const [cart , setCart] = useState([])
-  let addtocart = (take) =>{
-  
-    let newCart = [...cart , take];
-    setCart(newCart);
-    
-  }
-  
- //for choose again button
-  let clearCart = (given) =>{
-   given = [];
-   setCart(given);
-  }
+ 
   return (
     <div>
       <Header></Header>
-      <Products addtocart={addtocart} cart={cart} clearCart={clearCart} ></Products>
+      <Products  ></Products>
       <Queans></Queans>
       <Footer></Footer>
     </div>
