@@ -12,8 +12,8 @@ function App() {
     let newCart = [...cart , take];
     setCart(newCart);  
   }
-  // let [clear , setClear] = useState([])
-
+  
+ //for choose again button
   let clearCart = (given) =>{
    given = [];
    setCart(given);

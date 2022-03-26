@@ -6,7 +6,7 @@ const Modalpro = ({doRandom}) => {
 
   const handleClose = () => setShow(false);
   const handleShow = () =>{ 
-    //   let new = list[Math.floor((Math.random()*list.length))];
+    
       setShow(true);
 
   }
