@@ -13,14 +13,14 @@ const Products = () => {
 
     const [cart , setCart] = useState([])
     let addtocart = (take) =>{
-        console.log(take);
+        // console.log(take);
       let newCart = [];
       const exists = cart.find(item => item === take);
       if(!exists && cart.length <4){
         newCart = [...cart , take];
       }
       else if(exists && cart.length <4){
-          console.log(cart);
+        //   console.log(cart);
           alert('This product is already added')
         return
       }
