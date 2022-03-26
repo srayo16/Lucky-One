@@ -12,7 +12,7 @@ const Products = ({addtocart ,cart ,clearCart }) => {
     } , [])
     return (
 
-        <div className='pdsGrid'>
+        <div className='pdsGrid mb-5 pb-5'>
         <div className='forColoum'>
 
             {

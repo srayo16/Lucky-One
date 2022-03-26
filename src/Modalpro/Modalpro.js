@@ -14,7 +14,7 @@ const Modalpro = ({doRandom}) => {
 
     return (
         <>
-        <Button variant="outline-secondary" onClick={handleShow}>
+        <Button variant="outline-secondary" className='mt-3' onClick={handleShow}>
         CHOOSE 1 FOR ME
         </Button>
   
