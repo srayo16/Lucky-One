@@ -10,7 +10,7 @@ const Product = ({pd ,addtocart}) => {
     return (
         
         <div className="">
-    <Card className='shadow-lg p-3 mb-5 bg-body rounded cardPosition' style={{ width: '18rem' }}>
+    <Card className='shadow-lg p-3 mb-5 bg-body rounded cardPosition' style={{ width: '18rem' , height: '450px' }}>
   <Card.Img variant="top" className='img-fluid w-75 p-3 ms-4 mt-2' src={image} />
   <Card.Body>
     <Card.Title className='pb-2'>Phone: {phone_name} </Card.Title>

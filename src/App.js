@@ -9,8 +9,10 @@ import Footer from './Footer/Footer';
 function App() {
   const [cart , setCart] = useState([])
   let addtocart = (take) =>{
+    
     let newCart = [...cart , take];
-    setCart(newCart);  
+    setCart(newCart);
+    
   }
   
  //for choose again button

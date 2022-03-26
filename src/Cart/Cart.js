@@ -4,12 +4,11 @@ import Modalpro from '../Modalpro/Modalpro';
 import './Cart.css';
 
 const Cart = ({cart ,clearCart }) => {  
-   
     
-        let doRandom = cart[Math.floor((Math.random()*cart.length))];
+    let doRandom = cart[Math.floor((Math.random()*cart.length))];
     let count = 1;
     return (
-        <div className='shadow-lg p-3 mb-5 bg-body rounded  carthandle' style={{height: '425px'}}>
+        <div className='shadow-lg p-3 mb-5 bg-body rounded  carthandle' style={{height: '450px'}}>
             <h1>Selected Clothes</h1>
             <hr />
             <div>
