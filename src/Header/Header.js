@@ -4,7 +4,7 @@ import './Header.css';
 const Header = () => {
     return (
         <div className='mb-5'>
-            <Navbar bg="dark" className='navhandle' expand="lg">
+    <Navbar bg="dark" className='navhandle' expand="lg">
   <Container fluid>
     <Navbar.Brand href="#" className="text-light fw-bold ms-5 ps-5" >Eye-Phone Store</Navbar.Brand>
     <Navbar.Toggle aria-controls="navbarScroll" className='tog'/>
