@@ -1,4 +1,4 @@
-# This is my live hosting link
+# Eye-Phone Store
 
-Link here https://burgerkhaw.netlify.app/
+Live link here: https://8thassignmentbysrayo.netlify.app/
 
